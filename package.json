@@ -1,0 +1,21 @@
+{
+  "name": "aws-s3-bucket-uploader",
+  "version": "1.0.0",
+  "description": "A Node.js script for migrating files to an AWS S3 bucket, either from local storage or from an online public URL.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1664.0",
+    "dotenv": "^16.4.5",
+    "fs": "^0.0.1-security",
+    "mysql2": "^3.10.3",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.3",
+    "uuid": "^10.0.0"
+  }
+}
